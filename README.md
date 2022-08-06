@@ -20,15 +20,15 @@ Rest features doesn't show any patterns.
 ## ML Model
 
 I used <code>Random Forest Classifier</code> model for prediction. Used <code>GridSearchCV</code> for hyperparameter tuning with <code>roc_auc</code> as scoring metric.
-Acheved an accuracy of <code>81%</code> in training data and <code>80%</code> on test data.
+Acheved an accuracy of <code>80.8%</code> in training data and <code>80.4%</code> on test data.
 
-| Confusion matrix for training data  ![image](https://user-images.githubusercontent.com/56977388/182699281-3479f7f3-ec3a-40ab-b2de-021f0a1e0cbf.png) | Confusion matrix for test data  ![image](https://user-images.githubusercontent.com/56977388/182699316-b2b6bf59-c8c2-48d8-b709-5ab60dd9d6b5.png) |
+| Confusion matrix for training data  ![image](https://user-images.githubusercontent.com/56977388/183244554-ac9685b5-84fc-4eec-bfa9-d1f65900b9e7.png) | Confusion matrix for test data  ![image](https://user-images.githubusercontent.com/56977388/183244582-13f13a59-f13d-4c20-9149-34a2c3a72f71.png) |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 
 
 ## Model Interpretation
 
-| Important features for prediction  <p align="center">   <img width=750 alt="f_imp" src="https://user-images.githubusercontent.com/56977388/182700282-1c04bd2b-be81-4e12-989c-1aaee5a47838.png"> </p> |
+| Important features for prediction  <p align="center">   <img alt="f_imp" src="https://user-images.githubusercontent.com/56977388/183244785-e3457575-b30f-49b0-b164-d597539c20c1.png"> </p> |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <p align="center">Understanding test model prediction using SHAP</p>  ![image](https://user-images.githubusercontent.com/56977388/182701404-81e933d7-597d-4746-bb11-5be9a3bcdd11.png)                                                 |
-| ![image](https://user-images.githubusercontent.com/56977388/182702739-99633f7f-bc72-4cc0-b1fa-e5e8e7d028be.png)                                                                                      |
+| <p align="center">Understanding test model prediction using SHAP</p>  ![image](https://user-images.githubusercontent.com/56977388/183244842-00adca68-7b68-4874-9f09-a20ed1691f92.png)                                                 |
+| ![image](https://user-images.githubusercontent.com/56977388/183244864-9262c99a-3cdd-4da3-8ee0-db93e0f4a79d.png)                                                                                      |
